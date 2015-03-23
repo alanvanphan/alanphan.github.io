@@ -985,6 +985,23 @@ call-to-action .button {
 	color: #fff;
 	background-color: #11ABB0;
 }
+
+/*formspree submit button AP style*/
+
+#contact [type="submit"] {
+  margin-left: 26%;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+#contact [type="submit"]:hover {
+  color: #0D0D0D;
+  background: #fff;
+}
+
+
+/*end formspree*/
+
 #contact button.submit {
 	text-transform: uppercase;
 	letter-spacing: 3px;
