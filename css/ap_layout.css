@@ -992,6 +992,10 @@ call-to-action .button {
   margin-left: 26%;
   text-transform: uppercase;
   display: inline-block;
+  height: auto;
+  cursor: pointer;
+  border-radius: 3px;
+  border: none;
 }
 
 #contact [type="submit"]:hover {
