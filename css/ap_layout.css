@@ -989,15 +989,14 @@ call-to-action .button {
 /*formspree submit button AP style*/
 
 #contact [type="submit"] {
-  margin-left: 26%;
+    text-transform: uppercase;
   letter-spacing: 3px;
-  text-transform: uppercase;
-  display: inline-block;
-  height: auto;
-  cursor: pointer;
+  border: none;
+   cursor: pointer;
+   height: auto;
+   display: inline-block;
   border-radius: 3px;
-  border: 0;
-  outline: none;
+   margin-left: 26%;
 }
 
 #contact [type="submit"]:hover {
