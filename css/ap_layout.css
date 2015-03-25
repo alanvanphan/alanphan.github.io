@@ -990,12 +990,14 @@ call-to-action .button {
 
 #contact [type="submit"] {
   margin-left: 26%;
+  letter-spacing: 3px;
   text-transform: uppercase;
   display: inline-block;
   height: auto;
   cursor: pointer;
   border-radius: 3px;
-  border: none;
+  border: 0;
+  outline: none;
 }
 
 #contact [type="submit"]:hover {
