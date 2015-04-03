@@ -997,6 +997,8 @@ call-to-action .button {
    display: inline-block;
   border-radius: 3px;
    margin-left: 26%;
+   width: 33%;
+   text-align: center;
 }
 
 #contact [type="submit"]:hover {
