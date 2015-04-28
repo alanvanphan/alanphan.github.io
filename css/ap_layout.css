@@ -380,17 +380,17 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .solidworks {
-  	width: 70%;
+  	width: 95%;
   	-moz-animation: solidworks 2s ease;
   	-webkit-animation: solidworks 2s ease;
 }
 @-moz-keyframes solidworks {
   0%   { width: 0px;  }
-  100% { width: 70%;  }
+  100% { width: 95%;  }
 }
 @-webkit-keyframes solidworks {
   0%   { width: 0px;  }
-  100% { width: 70%;  }
+  100% { width: 95%;  }
 }
 
 .autocad {
