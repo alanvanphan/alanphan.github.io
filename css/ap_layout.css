@@ -393,6 +393,20 @@ ul#nav li.current a { color: #F06000; }
   100% { width: 95%;  }
 }
 
+.nx {
+    width: 60%;
+    -moz-animation: nx 2s ease;
+    -webkit-animation: nx 2s ease;
+}
+@-moz-keyframes nx {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
+@-webkit-keyframes nx {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
+
 .autocad {
   	width: 50%;
   	-moz-animation: autocad 2s ease;
@@ -407,19 +421,20 @@ ul#nav li.current a { color: #F06000; }
   100% { width: 50%;  }
 }
 
-.revit {
-  	width: 45%;
-  	-moz-animation: revit 2s ease;
-  	-webkit-animation: revit 2s ease;
+.catia {
+    width: 50%;
+    -moz-animation: autocad 2s ease;
+    -webkit-animation: autocad 2s ease;
 }
-@-moz-keyframes revit {
+@-moz-keyframes autocad {
   0%   { width: 0px;  }
-  100% { width: 45%;  }
+  100% { width: 50%;  }
 }
-@-webkit-keyframes revit {
+@-webkit-keyframes autocad {
   0%   { width: 0px;  }
-  100% { width: 45%;  }
+  100% { width: 50%;  }
 }
+
 /*start2*/
 .matlab {
     width: 80%;
